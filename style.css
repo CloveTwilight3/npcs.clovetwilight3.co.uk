@@ -1,4 +1,37 @@
-/* CSS Custom Properties - Change these to customize colors easily! */
+/* Comic Code font declarations */
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://www.doughmination.win/fonts/ComicCode-Regular_2022-05-24-151938_hsmz.woff2') format('woff2'),
+         url('https://www.doughmination.win/fonts/ComicCode-Regular_2022-05-24-151938_hsmz.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://www.doughmination.win/fonts/ComicCode-Italic_2022-05-24-151939_rdtu.woff2') format('woff2'),
+         url('https://www.doughmination.win/fonts/ComicCode-Italic_2022-05-24-151939_rdtu.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://www.doughmination.win/fonts/ComicCode-Medium_2022-05-24-151941_ugqm.woff2') format('woff2'),
+         url('https://www.doughmination.win/fonts/ComicCode-Medium_2022-05-24-151941_ugqm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://www.doughmination.win/fonts/ComicCode-Bold_2022-05-24-152309_zqkm.woff2') format('woff2'),
+         url('https://www.doughmination.win/fonts/ComicCode-Bold_2022-05-24-152309_zqkm.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 :root {
   --primary-color: #f8d7da;        /* Button color */
   --secondary-color: #9b7cb6;      /* Text accent color */
@@ -12,7 +45,7 @@ body {
   margin: 0;
   padding: 0;
   /* Using Google Fonts with good fallbacks */
-  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  font-family: 'Comic Code', 'Fira Code', 'Courier New', monospace;
   background: var(--bg-gradient);
   color: var(--text-color);
   text-align: center;
